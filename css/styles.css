@@ -1,5 +1,6 @@
 :root {
   --main-color: #2e2f42;
+  --logo-color: #4d5ae5;
 }
 body {
   text-decoration: none;
@@ -15,7 +16,7 @@ a {
 .header-logo {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
-  color: var(--main-color);
+  color: var(--logo-color);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.1;
@@ -121,8 +122,9 @@ a {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .footer-text {
   color: #f4f4fd;
