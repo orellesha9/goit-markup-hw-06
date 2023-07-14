@@ -65,6 +65,9 @@ a {
 .header-menu > a.header-item {
   color: var(--main-color);
 }
+.header-item > a.header-item-link {
+  color: var(--adress-color);
+}
 
 /** MAIN BLOCK */
 .main-section {
