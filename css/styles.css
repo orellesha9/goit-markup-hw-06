@@ -62,8 +62,8 @@ a {
 .link:is(:hover, :focus) {
   color: #404bbf;
 }
-.main-block-button:is(:hover, :focus) {
-  background-color: #404BBF;
+.main-section > .main-block-button:is(:hover, :focus) {
+  background-color: #404bbf;
 }
 .header-menu > a.header-item {
   color: var(--main-color);
@@ -92,7 +92,7 @@ a {
   color: #fff;
   font-family: inherit;
   font-size: 16px;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
