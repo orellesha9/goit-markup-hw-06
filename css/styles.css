@@ -47,7 +47,7 @@ a {
   list-style: none;
 }
 .link:is(:hover, :focus) {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 /** MAIN BLOCK */
