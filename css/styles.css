@@ -19,7 +19,7 @@ a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
 .header-logo {
@@ -61,6 +61,9 @@ a {
 }
 .link:is(:hover, :focus) {
   color: #404bbf;
+}
+.header-menu > a.header-item {
+  color: var(--main-color);
 }
 
 /** MAIN BLOCK */
