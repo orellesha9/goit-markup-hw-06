@@ -1,6 +1,5 @@
 :root {
   --main-color: #2e2f42;
-  --logo-color: #4d5ae5;
 }
 body {
   text-decoration: none;
@@ -16,7 +15,7 @@ a {
 .header-logo {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
-  color: var(--logo-color);
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.1;
@@ -69,7 +68,6 @@ a {
 }
 /** HIDEN TEXT SECTION 2 */
 .visually-hidden {
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
