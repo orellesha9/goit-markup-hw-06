@@ -62,6 +62,9 @@ a {
 .link:is(:hover, :focus) {
   color: #404bbf;
 }
+.main-block-button:is(:hover, :focus) {
+  background-color: #404BBF;
+}
 .header-menu > a.header-item {
   color: var(--main-color);
 }
