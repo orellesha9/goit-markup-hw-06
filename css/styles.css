@@ -44,6 +44,7 @@ a {
 }
 .list {
   list-style-type: none;
+  list-style: none;
 }
 .link:is(:hover, :focus) {
   color: #4d5ae5;
