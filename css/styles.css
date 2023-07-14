@@ -130,7 +130,7 @@ a {
   text-align: center;
   text-transform: capitalize;
   line-height: 1.11; /* 111.111% */
-  letter-spacing: -0.03em;
+  letter-spacing: 0.02em;
 }
 .member-title {
   color: var(--main-color);
