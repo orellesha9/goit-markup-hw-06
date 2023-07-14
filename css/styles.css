@@ -20,6 +20,7 @@ a {
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-blue {
   text-decoration: none;
@@ -28,6 +29,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  text-transform: uppercase;
 }
 .header-item {
   color: var(--main-color);
@@ -59,7 +61,7 @@ a {
   letter-spacing: -0.02em;
 }
 .header-address {
-  font-style: normal
+  font-style: normal;
 }
 .main-block-button {
   color: #fff;
