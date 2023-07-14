@@ -15,7 +15,7 @@ a {
 .header-logo {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
-  color: #4d5ae5;
+  color: var(--main-color);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
