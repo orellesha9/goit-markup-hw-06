@@ -58,6 +58,9 @@ a {
   line-height: 1.07; /* 107.143% */
   letter-spacing: -0.02em;
 }
+.header-address {
+  font-style: normal
+}
 .main-block-button {
   color: #fff;
   font-family: inherit;
