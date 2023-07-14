@@ -127,6 +127,8 @@ a {
   color: var(--main-color);
   font-size: 36px;
   font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
   line-height: 1.11; /* 111.111% */
   letter-spacing: -0.03em;
 }
