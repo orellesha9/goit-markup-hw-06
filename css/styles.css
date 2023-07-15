@@ -185,3 +185,11 @@ a {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.09em;
 }
+/** PORTFOLIO */
+.header-item-link-portfolio  {
+font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  color: var( --main-color);
+}
