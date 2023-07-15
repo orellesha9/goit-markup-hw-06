@@ -67,10 +67,6 @@ a {
 .main-section > .main-block-button:is(:hover, :focus) {
   background-color: #404bbf;
 }
-
-.header-item > a.header-item-link {
-  color: var(--adress-color);
-}
 .header-item > a.header-item-link {
   color: var(--main-color);
 }
