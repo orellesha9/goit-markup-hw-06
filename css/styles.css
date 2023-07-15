@@ -155,7 +155,7 @@ a {
 }
 .footer-logo {
   color: var(--footer-color);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17; /* 116.667% */
