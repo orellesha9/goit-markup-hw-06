@@ -67,11 +67,12 @@ a {
 .main-section > .main-block-button:is(:hover, :focus) {
   background-color: #404bbf;
 }
-.header-menu > .header-item > .header-item-link {
-  color: var(--main-color);
-}
+
 .header-item > a.header-item-link {
   color: var(--adress-color);
+}
+.header-item > a.header-item-link {
+  color: var(--main-color);
 }
 
 /** MAIN BLOCK */
