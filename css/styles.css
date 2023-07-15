@@ -3,7 +3,7 @@
   --logo-color: #4d5ae5;
   --adress-color: #434455;
   --footer-color: #4d5ae5;
-  --button-portfolio: #F4F4FD;
+  --button-portfolio: #f4f4fd;
 }
 body {
   text-decoration: none;
@@ -181,16 +181,21 @@ a {
   color: #4d5ae5;
   background-color: var(--button-portfolio);
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
 }
+.button-portfolio:is(:hover, :focus) {
+  color: #ffffff;
+  background-color: #404BBF;
+}
 /** PORTFOLIO */
-.header-item-link-portfolio  {
-font-size: 16px;
+.header-item-link-portfolio {
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  color: var( --main-color);
+  color: var(--main-color);
 }
