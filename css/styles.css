@@ -3,6 +3,7 @@
   --logo-color: #4d5ae5;
   --adress-color: #434455;
   --footer-color: #4d5ae5;
+  --button-portfolio: #F4F4FD;
 }
 body {
   text-decoration: none;
@@ -178,10 +179,12 @@ a {
 }
 .button-portfolio {
   color: #4d5ae5;
+  background-color: var(--button-portfolio);
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.09em;
+  letter-spacing: 0.04em;
 }
 /** PORTFOLIO */
 .header-item-link-portfolio  {
