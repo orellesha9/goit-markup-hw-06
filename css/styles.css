@@ -159,16 +159,16 @@ a {
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .logo-blue-white {
   color: #f4f4fd;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.16; /* 116.667% */
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .footer-text {
