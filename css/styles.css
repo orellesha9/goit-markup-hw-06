@@ -11,6 +11,36 @@ body {
   background: #fff;
   color: #434455;
 }
+.container { 
+  width: 100%;
+max-width: 1440px;
+padding-left: 15px;
+padding-right: 15px; 
+outline: 2px solid red;
+margin-left: auto ; 
+margin-right: auto ; 
+
+}
+img{
+  display: block;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 a {
   text-decoration: none;
   color: #2e2f42;
@@ -32,6 +62,8 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .logo-blue {
   text-decoration: none;
@@ -78,6 +110,9 @@ a {
 .main-section {
   background-color: #2e2f42;
 }
+.strategy {
+  padding-top: 120px;
+}
 
 .main-block-text {
   color: #fff;
@@ -85,6 +120,7 @@ a {
   text-align: center;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
+  padding: 188px 472px 48px 472px;
 }
 .header-address {
   font-style: normal;
@@ -101,6 +137,12 @@ a {
 }
 /** HIDEN TEXT SECTION 2 */
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -185,7 +227,7 @@ a {
 }
 .button-portfolio:is(:hover, :focus) {
   color: #ffffff;
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 /** PORTFOLIO */
 .header-item-link-portfolio {
