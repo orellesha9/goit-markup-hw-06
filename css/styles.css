@@ -12,11 +12,11 @@ body {
   color: #434455;
 }
 .container {
-  width: 100%;
+  width: 1158px;
   max-width: 1440px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -45,6 +45,12 @@ a {
   color: #2e2f42;
 }
 /** header */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-item-portfolio {
+  padding: 24px 0;
+}
 .header-navigation {
   display: flex;
   align-items: center;
@@ -73,6 +79,7 @@ a {
   text-transform: uppercase;
   padding-top: 25px;
   padding-bottom: 25px;
+  margin-right: 76px;
 }
 .logo-blue {
   text-decoration: none;
@@ -160,7 +167,6 @@ a {
   border-radius: 4px;
   padding: 16px 32px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
 }
 /** HIDEN TEXT SECTION 2 */
 .visually-hidden {
