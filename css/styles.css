@@ -134,9 +134,7 @@ a {
   /* padding: 188px 472px 48px 472px; */
   /* max-width: 496px; */
   /* margin: 0 auto; */
-  padding-top: 188px;
-  padding-left: 472px;
-  padding-right: 472px;
+  pad: 188px 472px 292px 472px;
 }
 .header-address {
   font-style: normal;
