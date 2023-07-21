@@ -110,6 +110,9 @@ a {
   background-color: #ffffff;
   text-decoration: none;
 }
+.strategy-list:first-child {
+  width: calc((100% - 72px) / 4); 
+}
 
 .link:is(:hover, :focus) {
   color: #404bbf;
