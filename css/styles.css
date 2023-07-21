@@ -130,9 +130,15 @@ a {
 .main-section-block {
 }
 .strategy {
-  padding-top: 120px;
+padding: 120px 0;
+  display: flex;
+  flex-direction: row;
 }
-
+.strategy-list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
 .main-block-text {
   color: #fff;
   font-size: 56px;
@@ -187,6 +193,7 @@ a {
   overflow: hidden;
 }
 .list-subtitle {
+  display: flex;
   color: var(--main-color);
   font-size: 20px;
   font-weight: 500;
