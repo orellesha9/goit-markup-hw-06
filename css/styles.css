@@ -211,8 +211,19 @@ padding: 120px 0;
   letter-spacing: 0.02em;
 }
 /** SECTION3 */
+.doing {
+  padding-bottom: 120px; 
+}
+.list-doing {
+  display: flex;
+  gap: 24px;
+}
+.title-doing {
+  margin-bottom: 72px;
+}
 .team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .title {
   color: var(--main-color);
@@ -221,8 +232,14 @@ padding: 120px 0;
   text-transform: capitalize;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
-  padding-top: 120px;
-  padding-bottom: 72px;
+ margin-bottom: 72px;
+}
+.title-team {
+  margin-bottom: 72px;
+}
+.team-list {
+display: flex;
+gap: 24px;
 }
 .member-title {
   color: var(--main-color);
