@@ -143,7 +143,7 @@ a {
   /* padding: 188px 472px 48px 472px; */
   /* max-width: 496px; */
   /* margin: 0 auto; */
-  pad: 188px 472px 292px 472px;
+  /* padding: 188px 472px 292px 472px; */
 }
 .header-address {
   font-style: normal;
@@ -164,7 +164,7 @@ a {
   min-width: 169px;
   height: 56px;
   border: none;
-  background-color: var(--footer-color:);
+  background-color: var( --footer-color);
   font-weight: 500;
   cursor: pointer;
   line-height: 1.5; /* 150% */
