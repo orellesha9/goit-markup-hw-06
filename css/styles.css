@@ -49,7 +49,7 @@ a {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-item-portfolio {
-  padding: 24px 0 24px
+  padding: 24px 0 24px;
 }
 .header-navigation {
   display: flex;
@@ -164,7 +164,7 @@ a {
   min-width: 169px;
   height: 56px;
   border: none;
-  background-color: var( --footer-color);
+  background-color: var(--footer-color);
   font-weight: 500;
   cursor: pointer;
   line-height: 1.5; /* 150% */
@@ -172,7 +172,6 @@ a {
   border-radius: 4px;
   padding: 16px 32px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
 }
 /** HIDEN TEXT SECTION 2 */
 .visually-hidden {
