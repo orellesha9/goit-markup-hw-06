@@ -116,6 +116,7 @@ a {
   background-color: #ffffff;
   text-decoration: none;
   border-radius: 0px 0px 4px 4px;
+  /* width: calc((100% - 48px) / 3); */
 }
 .strategy-list:first-child {
   width: calc((100% - 72px) / 4);
@@ -351,7 +352,7 @@ a {
   row-gap: 48px;
 }
 .portfolio-list-project:first-child {
-  width: calc((100% - 48px) / 3);
+  /* width: calc((100% - 48px) / 3); */
 }
 .project-description {
   padding: 32px 16px;
