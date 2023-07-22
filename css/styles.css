@@ -156,6 +156,7 @@ a {
   width: calc((100% - 72px) / 4);
 }
 .main-block-text {
+  display: flex;
   color: #fff;
   font-size: 56px;
   text-align: center;
