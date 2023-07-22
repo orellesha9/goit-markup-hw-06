@@ -265,6 +265,7 @@ border-radius: 0px 0px 4px 4px;
 /** FOOTER */
 .footer-section {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo {
   color: var(--footer-color);
@@ -274,6 +275,8 @@ border-radius: 0px 0px 4px 4px;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-blue-white {
   color: #f4f4fd;
