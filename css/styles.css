@@ -150,6 +150,10 @@ a {
   display: flex;
   flex-direction: row;
   gap: 24px;
+  
+}
+.strategy-list-item {
+  width: calc((100% - 72px) / 4);
 }
 .main-block-text {
   color: #fff;
@@ -352,9 +356,7 @@ a {
   gap: 24px;
   row-gap: 48px;
 }
-.portfolio-list-project:first-child {
-  /* width: calc((100% - 48px) / 3); */
-}
+
 .project-description {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -362,4 +364,7 @@ a {
 }
 .member-title-portfolio {
   margin-bottom: 8px;
+}
+.portfolio-list-item {
+  width: calc((100% - 48px) / 3);
 }
