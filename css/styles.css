@@ -133,7 +133,9 @@ a {
 .main-section > .main-block-button:is(:hover, :focus) {
   background-color: #404bbf;
 }
-
+.icon {
+  fill: #2e2f42;
+}
 .header-item > a.header-item-link {
   color: var(--main-color);
 }
@@ -145,6 +147,10 @@ a {
   background-color: #2e2f42;
   padding: 188px 0;
   flex-wrap: nowrap;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 .main-section-block {
 }
@@ -242,6 +248,9 @@ a {
 /** SECTION3 */
 .doing {
   padding-bottom: 120px;
+}
+.customers {
+  padding-top: 120px;
 }
 .list-doing {
   display: flex;
@@ -347,6 +356,11 @@ a {
   color: #ffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
+}
+.customers-svg {
+  border-radius: 4px;
+border: 1px solid var(--lightslate, #8E8F99);
+padding: 16px 32px;
 }
 /** PORTFOLIO */
 .header-item-link-portfolio {
