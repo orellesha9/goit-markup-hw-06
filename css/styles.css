@@ -136,6 +136,18 @@ a {
 .icon {
   fill: #2e2f42;
 }
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.icon-list {
+  display: flex;
+}
 .header-item > a.header-item-link {
   color: var(--main-color);
 }
