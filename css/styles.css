@@ -143,14 +143,19 @@ a {
 /** MAIN BLOCK */
 .main-section {
   display: flex;
+  max-width: 1440px;
   /* justify-content: center; */
   background-color: #2e2f42;
   padding: 188px 0;
   flex-wrap: nowrap;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/office.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/office.jpg);
   background-repeat: no-repeat;
   background-position: center;
-
+  background-size: cover;
 }
 .main-section-block {
 }
@@ -216,6 +221,7 @@ a {
   border-radius: 4px;
   padding: 16px 32px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /** HIDEN TEXT SECTION 2 */
 .visually-hidden {
@@ -359,8 +365,8 @@ a {
 }
 .customers-svg {
   border-radius: 4px;
-border: 1px solid var(--lightslate, #8E8F99);
-padding: 16px 32px;
+  border: 1px solid var(--lightslate, #8e8f99);
+  padding: 16px 32px;
 }
 /** PORTFOLIO */
 .header-item-link-portfolio {
