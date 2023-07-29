@@ -9,8 +9,8 @@
   --icons-hover: #404bbf;
   --svg-color: #f4f4fd;
   --customers-color: #8e8f99;
-  --color-white: #FFFFFF;
-  --footer-color: #31d0aa; 
+  --color-white: #ffffff;
+  /* --footer-color: #31d0aa;  */
 }
 body {
   text-decoration: none;
@@ -442,27 +442,24 @@ a {
 .footer-list {
   display: flex;
   gap: 16px;
-
 }
 .footer-item {
   width: 40px;
   height: 40px;
-
 }
-.footer-link{
+.footer-link {
   width: 100%;
   height: 100%;
-   background-color: var(--icons-color);
+  background-color: var(--icons-color);
 
-   border-radius: 50%;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  }
-  .footer-link:is(:hover, :active) {
-    background-color: var(--footer-color);
-  }
+}
+.footer-link:is(:hover, :active) {
+  background-color: #31d0aa;
+}
 .button-portfolio {
   color: #4d5ae5;
   background-color: var(--button-portfolio);
