@@ -6,6 +6,8 @@
   --button-portfolio: #f4f4fd;
   --button-portfolio-text: #e7e9fc;
   --icons-color: #4d5ae5;
+  --icons-hover: #404bbf;
+  --svg-color: #f4f4fd;
 }
 body {
   text-decoration: none;
@@ -153,7 +155,8 @@ a {
   gap: 24px;
   list-style: none;
 }
-.icon-list {
+.icon-social {
+  fill: var(--svg-color);
 }
 .icons-list {
   display: flex;
@@ -176,6 +179,11 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+}
+.link-icon:is(:hover, :focus) {
+background-color: var(--icons-hover);
+
 }
 
 /** MAIN BLOCK */
