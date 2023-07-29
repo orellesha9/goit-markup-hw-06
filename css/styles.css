@@ -166,7 +166,7 @@ a {
   justify-content: center;
   gap: 24px;
   list-style: none;
-  gap: 16px;
+  gap: 24px;
 }
 .item {
   width: 40px;
@@ -447,6 +447,13 @@ a {
 .footer-item {
   width: 40px;
   height: 40px;
+}
+.footer-icons-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+  gap: 24px;
 }
 .footer-link {
   width: 100%;
