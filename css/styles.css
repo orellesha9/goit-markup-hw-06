@@ -166,6 +166,7 @@ a {
   justify-content: center;
   gap: 24px;
   list-style: none;
+  gap: 16px;
 }
 .item {
   width: 40px;
