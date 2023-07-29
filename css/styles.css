@@ -64,6 +64,8 @@ a {
 /** header */
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-item-portfolio {
   padding: 24px 0;
@@ -515,6 +517,17 @@ a {
   letter-spacing: 0.02em;
   color: var(--main-color);
   padding: 24px 0;
+  position: relative;
+  /* color: #404bbf; */
+}
+.header-item-link-portfolio::after {
+ content: '_' ;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 .section-main-portfolio {
   padding-top: 96px;
