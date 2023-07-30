@@ -608,10 +608,10 @@ a {
   width: 408px;
   min-height: 584px;
   background-color: #fcfcfc;
-  transition: transform 300ms linear;
-  box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  transform: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-btn {
   position: absolute;
@@ -627,16 +627,14 @@ a {
   cursor: pointer;
   top: 24px;
   right: 24px;
-  transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-btn:is(:hover, :focus) {
   border: none;
   background-color: #e7e9fc;
   fill: #ffffff;
   background-color: #404bbf;
-
 }
 .is-hidden {
   opacity: 0;
@@ -649,4 +647,4 @@ a {
 .modal-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close-btn:is(:hover, :focus)
+.modal-close-btn: is(: hover, : focus);
