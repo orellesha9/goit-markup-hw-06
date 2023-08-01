@@ -225,7 +225,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/office.jpg);
+    url(../images/office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
