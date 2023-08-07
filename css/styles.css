@@ -785,12 +785,15 @@ a {
 }
 .modal-checkbox {
   margin-bottom: 24px;
+  display: inline;
 }
 .modal-checkbox-text {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--customers-color);
+  display: flex;
+  align-items: center;
 }
 .modal-checkbox-text-span {
   width: 16px;
@@ -804,4 +807,25 @@ a {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+.modal-checkbox-link {
+  color: var(--icons-color);
+  font-size: 12px;
+  line-height: 14px; /* 116.667% */
+  letter-spacing: 0.48px;
+}
+.modal-checkbox-text span {
+  width: 16px;
+  height: 16px;
+  border-radius: 6px;
+  border: rgb(46, 47, 66, 0.40);
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+.modal-check:checked + .modal-checkbox-text span {
+  background-color: #404bbf;
+  fill: var(--button-portfolio);
 }
