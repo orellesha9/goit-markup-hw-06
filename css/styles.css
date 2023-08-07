@@ -852,6 +852,7 @@ a {
 .modal-check:checked + .modal-checkbox-text span {
   background-color: #404bbf;
   fill: var(--button-portfolio);
+  border: none;
 }
 .modal-span {
   border: 1px solid rgba(46, 47, 66, 0.4);
