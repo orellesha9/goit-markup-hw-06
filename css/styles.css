@@ -822,7 +822,7 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
+
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -839,7 +839,6 @@ a {
   border-radius: 6px;
   border: rgb(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -855,12 +854,12 @@ a {
   border: none;
 }
 .modal-span {
+  display: inline-flex;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
 }
 .margin {
   margin-bottom: 16px;
@@ -908,9 +907,9 @@ foototer-subscribe-text::placeholder {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   border: none;
-  border-radius: 4px; 
+  border-radius: 4px;
 }
 .foototer-subscribe-icon {
   margin-left: 16px;
