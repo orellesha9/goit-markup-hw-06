@@ -506,11 +506,23 @@
               id="user-comment"
               cols="30"
               rows="10"
-              class="modal-comment" placeholder="Text input"
+              class="modal-comment"
+              placeholder="Text input"
             ></textarea>
           </div>
           <div class="modal-checkbox">
-            <input type="text" id="user-privacy" type="checkbox" value="true" name="user-privacy" class="modal-label">
+            <input
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              class="modal-label visually-hidden"
+              type="checkbox"
+            />
+            <label for="user-privacy" class="modal-checkbox-text"
+              >I accept the terms and conditions of the
+              <span class="modal-checkbox-text-span">Privacy Policy</span></label
+            >
           </div>
           <button type="submit" class="modal-form-btn">Send</button>
         </form>
