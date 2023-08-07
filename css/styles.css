@@ -754,7 +754,7 @@ color: #fff;
   fill: #4D5AE5;
 }
 .modal_icon{
-  fill:#404bbf;
+  fill:var(--main-color);
   /* stroke: #2E2F42; */
   position: absolute;
   left: 16px;
