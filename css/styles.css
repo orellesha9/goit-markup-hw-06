@@ -802,6 +802,9 @@ a {
 }
 .modal-comment::placeholder {
   color: rgba(46, 47, 66, 0.4);
+  font-size: 12px;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.04em;
 }
 .modal-comment:focus {
   border-color: #4d5ae5;
