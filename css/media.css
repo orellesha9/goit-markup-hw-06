@@ -6,7 +6,7 @@
     width: calc((100% - 72px) / 2);
   }
   .strategy-list {
-    gap: 24px, 72px;
+    gap: 24px 72px;
   }
   .list-subtitle {
     justify-content: flex-start;
@@ -16,6 +16,13 @@
   }
   .list-subtitle-text {
     /* font-weight: 500;  */
+  }
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px 64px;
+ width: calc((100% - 24px) / 2);
+
   }
 }
 
@@ -50,9 +57,8 @@
   .icons {
     display: flex;
     /* max-width: 264px; */
-
   }
- .strategy-list-item {
-   width: calc((100% - 72px) / 4);
-
+  .strategy-list-item {
+    width: calc((100% - 72px) / 4);
+  }
 }
