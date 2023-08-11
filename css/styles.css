@@ -337,6 +337,8 @@ a {
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  /* display: flex;
+  align-items: flex-start; */
 }
 /** SECTION3 */
 .doing {
