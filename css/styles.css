@@ -344,8 +344,9 @@ a {
   padding-bottom: 120px;
 }
 .customers {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
 }
 .customers-list {
   display: flex;
