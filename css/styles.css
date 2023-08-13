@@ -618,7 +618,7 @@ a {
 }
 .portfolio-list-project {
   display: flex;
-  flex-wrap: wrap;
+
   gap: 24px;
   row-gap: 48px;
 }
