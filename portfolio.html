@@ -66,7 +66,7 @@
     </header>
     <main>
       <!-- SECTION -->
-      <!-- <section class="section-main-portfolio">
+      <section class="section-main-portfolio">
         <div class="container">
           <h1 class="visually-hidden">text</h1>
           <ul class="list portfolio-list">
@@ -90,12 +90,22 @@
             <li class="list portfolio-list-item">
               <a href="" class="project shadow-button">
                 <div class="portfolio-cover-wrap">
-                  <img
-                    src="./images/portfolio/1.jpg"
-                    alt="interface"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/1-mob.jpg    1x,
+                        ./images/portfolio/1-mob@2x.jpg 2x
+                      "
+                      media="(min-width: 428px)"
+                    />
+                    <img
+                      srcset="./images/portfolio/1.jpg 1x"
+                      src="./images/portfolio/1.jpg"
+                      alt="interface"
+                      width="396"
+                    />
+                  </picture>
+
                   <p class="portfolio-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -282,7 +292,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
     <!-- <footer class="footer-section">
       <div class="container footer-div">
