@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-navigation">
           <a href="./index.html" class="header-logo link"
@@ -59,8 +59,83 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="menu-open-btn" data-menu-open>
+          <svg width="32" height="22">
+            <use href="./images/icons.svg#menu-hamburger"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div class="mob-menu is-hidden" data-menu>
+        <div>
+          <button type="button" class="menu-close-btn" data-menu-close>
+            <svg width="32" height="22">
+              <use href="./images/icons.svg#menu-hamburger">X</use>
+            </svg>
+          </button>
+          <ul class="list mob-menu-list">
+            <li class="mob-menu-portfolio list">
+              <a
+                href="./index.html"
+                class="color mob-menu-link-portfolio current"
+                >Studio</a
+              >
+            </li>
+            <li class="mob-menu-portfolio list">
+              <a href="./portfolio.html" class="mob-menu-link-portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mob-menu-portfolio list">
+              <a href="" class="mob-menu-link-portfolio">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="list mob-menu-address">
+            <li class="mob-menu-address-item mob-list mob-padding">
+              <a href="tel:+110001111111" class="list "
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mob-list mob-menu-address-item">
+              <a href="mailto:info@devstudio.com" class=" link"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="icons-list">
+            <li class="item">
+              <a href="" class="link-icon">
+                <svg class="icon-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link-icon">
+                <svg class="icon-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link-icon">
+                <svg class="icon-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link-icon">
+                <svg class="icon-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin "></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <main>
       <!-- SECTION1 -->
       <section class="main-section">
@@ -470,7 +545,7 @@
                 id="user-name"
                 required
               />
-              <svg class="modal_icon " width="18" height="24">
+              <svg class="modal_icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
@@ -501,7 +576,7 @@
                 id="user-email"
                 required
               />
-              <svg class="modal_icon " width="18" height="24">
+              <svg class="modal_icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg>
             </div>
@@ -542,5 +617,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
