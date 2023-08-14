@@ -125,10 +125,10 @@
   .header-address > a {
     font-size: 12px;
   }
-.header-address-item > .link {
-font-size: 12px;
-/* line-height: 1.16; /* 116.667% */  */
-}
+  .header-address-item > .link {
+    font-size: 12px;
+    /* line-height: 1.16; /* 116.667% */
+  }
   .header-logo {
     margin-right: 120px;
   }
@@ -196,9 +196,9 @@ font-size: 12px;
     margin-right: 76px;
   }
   .header-address-item > .link {
-font-size: 16px;
-/* line-height: 1.16; /* 116.667% */  */
-}
+    font-size: 16px;
+    /* line-height: 1.16; /* 116.667% */
+  }
   .strategy {
     padding: 120px 0;
   }
