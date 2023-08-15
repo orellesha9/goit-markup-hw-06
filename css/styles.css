@@ -78,6 +78,15 @@ a {
   justify-content: space-between;
   overflow: auto;
 }
+.mob-icons-list {
+  display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    gap: 24px;
+}
+.color-mob-1 {
+  color:#4d5ae5;
+}
 .menu-close-btn {
   display: block;
   margin-left: auto;
@@ -126,7 +135,6 @@ a {
   margin-bottom: 40px;
 }
 .mob-menu-link-portfolio {
-  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
@@ -156,6 +164,9 @@ a {
   margin-left: auto;
   width: 32px;
   height: 22px;
+  stroke: #2E2F42;
+  border: none;
+  background-color: transparent;
 }
 .project {
   color: var(--main-color);
@@ -265,7 +276,7 @@ a {
 }
 .icons-list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   list-style: none;
   gap: 24px;
   /* gap: 56px; */
