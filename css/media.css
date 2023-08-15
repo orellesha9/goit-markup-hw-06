@@ -23,6 +23,9 @@
   .customers-link {
     width: auto;
   }
+  .mob-list {
+    font-size: 36px;
+  }
   .portfolio-list {
     flex-wrap: wrap;
     justify-content: flex-start;
