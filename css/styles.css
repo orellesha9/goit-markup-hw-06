@@ -437,6 +437,7 @@ a {
 .customers {
   /* padding-top: 120px;
   padding-bottom: 120px; */
+  padding: 96px 0;
 }
 .customers-list {
   display: flex;
@@ -654,6 +655,7 @@ a {
 .customers-svg {
   /* border-radius: 4px; */
   fill: currentColor;
+  
   /* border: 1px solid var(--lightslate, #8e8f99); */
   /* padding: 2px 4px; */
 }
