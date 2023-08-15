@@ -192,7 +192,7 @@
   }
   .header-address {
     gap: 40px;
-    margin-left: 332px;
+    margin-left: 331px;
     flex-wrap: nowrap;
   }
   .header-logo {
@@ -224,6 +224,9 @@
   .strategy-list {
     gap: 24px;
   }
+  .doing {
+  display: unset;
+}
   .icons {
     display: flex;
     /* max-width: 264px; */
@@ -251,6 +254,9 @@
   }
   .portfolio-list-item {
     width: calc((100% - 48px) / 3);
+  }
+  .button-portfolio {
+    padding: 12px 24px;
   }
   .section-main-portfolio {
     padding-top: 100px;
