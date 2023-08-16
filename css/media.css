@@ -56,6 +56,9 @@
     line-height: 1.11; /* 111.111% */
     /* letter-spacing: 0.03em; */
   }
+  ..foototer-subscribe-text {
+    width: 264px;
+  }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -164,6 +167,53 @@
   .main-block-button {
     margin-bottom: 112px;
   }
+  .foototer-subscribe-text {
+    width: 264px;
+  }
+  .footer-div {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:  72px 23px;
+    padding: 98px 164px 96px 108px;
+  }
+  /* .foototer-subscribe-text {
+    text-align: none;
+  } */
+  .footer-logo {
+    text-align: start;
+  }
+  .foototer-title {
+    justify-content: start;
+  }
+  .footer-div-logo {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer-social {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .foototer-subscribe-lable {
+    text-align: start;
+  }
+  .foototer-subscribe {
+    text-align: start;
+  }
+  .foototer-subscribe-btn {
+    flex-direction: row;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .foototer-subscribe-form {
+    flex-direction: unset;
+    gap: 24px;
+  }
+  .footer-text {
+    
+  }
+  .footer-section {
+    padding: 0;
+  }
   .main-section {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -171,6 +221,7 @@
       ),
       url(../images/office.tab.jpg);
   }
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -202,6 +253,9 @@
     font-size: 16px;
     /* line-height: 1.16; /* 116.667% */
   }
+  .footer-div-logo {
+  
+  }
   .strategy {
     padding: 120px 0;
   }
@@ -225,8 +279,8 @@
     gap: 24px;
   }
   .doing {
-  display: unset;
-}
+    display: unset;
+  }
   .icons {
     display: flex;
     /* max-width: 264px; */
@@ -280,9 +334,40 @@
     line-height: 1.07; /* 107.143% */
     letter-spacing: 0.02em;
   }
-  .main-block-button {
-    margin-bottom: 188px;
+  .footer-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
+  .foototer-subscribe-form {
+    gap: 0;
+  }
+  .footer-div {
+    flex-direction: row;
+    /* gap: 0; */
+    padding: 0;
+    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
+    /* display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap; */
+  }
+  .foototer-subscribe-div {
+    width: unset;
+  }
+.footer-div-logo {
+  margin-right: 120px;
+}
+.footer-social {
+  margin-right: 80px;
+}
+   .footer-div {
+ gap: 0;
+  } 
+  .foototer-subscribe-lable {
+    margin-right: 24px;
+  }
+  
   .main-section {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),

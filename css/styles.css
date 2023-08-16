@@ -561,14 +561,20 @@ a {
 .footer-section {
   background-color: #2e2f42;
   padding: 100px 0;
-  height: 312px;
+  /* height: 312px; */
 }
 .footer-div {
   display: flex;
   align-items: baseline;
+  flex-direction: column;
+  gap: 72px;
+  /* padding: 96px 0; */
 }
 .footer-div-logo {
-  margin-right: 120px;
+  /* margin-right: 120px; */
+  width: auto;
+    margin-left: auto;
+    margin-right: auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -583,8 +589,11 @@ a {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+    width: 100%;
+    text-align: center;
   display: inline-block;
   margin-bottom: 16px;
+
 }
 .logo-blue-white {
   color: #f4f4fd;
@@ -602,6 +611,8 @@ a {
   letter-spacing: 0.02em;
 }
 .foototer-title {
+  display: flex;
+  justify-content: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -1051,13 +1062,23 @@ a {
   letter-spacing: 0.02em;
   color: var(--color-white);
   margin-bottom: 16px;
+     text-align: center;
+}
+.footer-social {
+  width: auto;
+margin-left: auto;
+margin-right: auto;
 }
 .foototer-subscribe-form {
-  display: flex;
-  gap: 24px;
+ display: flex;
+    gap: 16px 24px;
+    flex-direction: column;
+ 
+
+ 
 }
 .foototer-subscribe-text {
-  width: 264px;
+  /* max-width: 264px; */
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -1068,6 +1089,7 @@ a {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: var(--color-white);
+  width: 100%;
 }
 /* 
 .input::placeholder {
@@ -1093,13 +1115,33 @@ a {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+   margin-left: auto;
+  margin-right: auto;
 }
 .foototer-subscribe-icon {
   margin-left: 16px;
   fill: var(--color-white);
 }
 .foototer-subscribe-div {
-  margin-left: 80px;
+  /* display: flex;
+  flex-direction: column; */
+  width: 100%;
+  /* flex-wrap: wrap;
+  justify-content: center; */
+  /* margin-left: auto;
+  margin-right: auto;
+  width: auto; */
+  /* margin-left: 80px; */
+}
+.foototer-subscribe-lable {
+  /* justify-content: center; */
+  margin-bottom: 16px;
+    font-weight: 500;
+    color: var(--white);
+    text-align: center;
+  /* margin-left: auto;
+  margin-right: auto;
+  width: auto; */
 }
 .foototer-subscribe-btn:is(:hover, :focus) {
   border-radius: 4px;
