@@ -61,7 +61,11 @@
         </address>
         <button type="button" class="menu-open-btn" data-menu-open>
           <svg width="32" height="22">
-            <use href="./images/icons.svg#menu-hamburger" width="32" height="22"></use>
+            <use
+              href="./images/icons.svg#menu-hamburger"
+              width="32"
+              height="22"
+            ></use>
           </svg>
         </button>
       </div>
@@ -101,7 +105,7 @@
               >
             </li>
           </ul>
-          <ul class="mob-icons-list ">
+          <ul class="mob-icons-list">
             <li class="item">
               <a href="" class="link-icon">
                 <svg class="icon-social" width="24" height="24">
@@ -136,14 +140,14 @@
     </header>
     <main>
       <!-- SECTION1 -->
-      <!-- <section class="main-section">
+      <section class="main-section">
         <div class="container">
           <h1 class="main-block-text">Effective Solutions for Your Business</h1>
           <button data-modal-open type="button" class="main-block-button">
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
       <!-- SECTION2 -->
       <section class="strategy">
         <div class="container">
@@ -206,28 +210,49 @@
           <h2 class="title title-doing">What are we doing</h2>
           <ul class="list list-doing">
             <li class="list">
-              <img
-                src="./images/teh.img1.jpg"
-                alt="indicators on the monitor"
-                height="360"
-                width="360"
-              />
+              <picture>
+                <source
+                  srcset="./images/teh.img1.jpg 1x, ./images/teh@2x-min.jpg 2x"
+                  media="(min-width:1166px)"
+                />
+
+                <img
+                  src="./images/teh.img1.jpg"
+                  alt="indicators on the monitor"
+                  height="360"
+                  width="360"
+                />
+              </picture>
             </li>
             <li class="list">
-              <img
-                src="./images/teh.img2.jpg"
-                alt="design on a smartphone"
-                height="360"
-                width="360"
-              />
+              <picture>
+                <source
+                  srcset="./images/teh.img2.jpg 1x, ./images/teh2@2x-min.jpg 2x"
+                  media="(min-width:1166px)"
+                />
+
+                <img
+                  src="./images/teh.img2.jpg"
+                  alt="design on a smartphone"
+                  height="360"
+                  width="360"
+                />
+              </picture>
             </li>
             <li class="list">
-              <img
-                src="./images/teh.img3.jpg"
-                alt="smartphone with a picture"
-                height="360"
-                width="360"
-              />
+              <picture>
+                <source
+                  srcset="./images/teh.img3.jpg 1x, ./images/teh3@2x-min.jpg 2x"
+                  media="(min-width:1166px)"
+                />
+
+                <img
+                  src="./images/teh.img3.jpg"
+                  alt="smartphone with a picture"
+                  height="360"
+                  width="360"
+                />
+              </picture>
             </li>
           </ul>
         </div>
@@ -238,12 +263,21 @@
           <h2 class="title title-team">Our Team</h2>
           <ul class="list team-list">
             <li class="list shadow">
-              <img class=""
-                src="./images/team.jpg"
-                alt="Product Designer"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./images/team.jpg 1x, ./images/team@2x-min.jpg 2x"
+                  media="(min-width:1166px)"
+                />
+
+                <img
+                  class=""
+                  src="./images/team.jpg"
+                  alt="Product Designer"
+                  width="264"
+                  height="260"
+                />
+              </picture>
+
               <div class="team-place">
                 <h3 class="member-title">Mark Guerrero</h3>
                 <p class="description">Product Designer</p>
@@ -280,12 +314,20 @@
               </div>
             </li>
             <li class="list shadow">
-              <img
-                src="./images/team2.jpg"
-                alt="Frontend Developer"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./images/team2.jpg 1x, ./images/team2@2x-min.jpg 2x"
+                  media="(min-width:1166px)"
+                />
+
+                <img
+                  src="./images/team2.jpg"
+                  alt="Frontend Developer"
+                  width="264"
+                  height="260"
+                />
+              </picture>
+
               <div class="team-place">
                 <h3 class="member-title">Tom Ford</h3>
                 <p class="description">Frontend Developer</p>
@@ -322,12 +364,20 @@
               </div>
             </li>
             <li class="list shadow">
-              <img
-                src="./images/team3.jpg"
-                alt="Marketing"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./images/team3.jpg 1x, ./images/team3@2x-min.jpg 2x"
+                  media="(min-width:1166px)"
+                />
+
+                <img
+                  src="./images/team3.jpg"
+                  alt="Marketing"
+                  width="264"
+                  height="260"
+                />
+              </picture>
+
               <div class="team-place">
                 <h3 class="member-title">Camila Garcia</h3>
                 <p class="description">Marketing</p>
@@ -364,12 +414,20 @@
               </div>
             </li>
             <li class="list shadow">
-              <img
-                src="./images/team4.jpg"
-                alt="UI Designer"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./images/team4.jpg 1x, ./images/team4@2x-min.jpg 2x"
+                  media="(min-width:1166px)"
+                />
+
+                <img
+                  src="./images/team4.jpg"
+                  alt="UI Designer"
+                  width="264"
+                  height="260"
+                />
+              </picture>
+
               <div class="team-place">
                 <h3 class="member-title">Daniel Wilson</h3>
                 <p class="description">UI Designer</p>
