@@ -365,6 +365,9 @@
   .foototer-subscribe-lable {
     margin-right: 24px;
   }
+  .list-subtitle-text {
+    font-weight: unset; 
+  }
 
   .main-section {
     background-image: linear-gradient(
