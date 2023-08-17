@@ -43,19 +43,13 @@
     width: 100%;
   }
   .main-block-text {
-    padding: 112px 38px 72px;
+    /* padding: 112px 38px 72px; */
     /* width: 3; */
+    text-transform: capitalize;
   }
   /* .portfolio-list-project:nth-last-child(gap: 0 48px;) {
   } */
-  .main-block-text {
-    font-family: Roboto;
-    text-transform: none;
 
-    /* font-weight: 700; */
-    line-height: 1.11; /* 111.111% */
-    /* letter-spacing: 0.03em; */
-  }
   .foototer-subscribe-text {
     width: 264px;
   }
@@ -78,6 +72,8 @@
   }
   .shadow {
     margin: 0;
+  }
+  .header-address {
   }
   .strategy-list-item {
     width: calc((100% - 24px) / 2);
@@ -111,6 +107,9 @@
     gap: 72px 24px;
     justify-content: center;
   }
+  .hero-section {
+    max-width: 768px;
+  }
   .customers-item {
   }
   .customers-link {
@@ -127,6 +126,7 @@
     margin-left: 121px;
     justify-content: flex-start;
     flex-wrap: wrap;
+    gap: 12px;
   }
   .header-address > a {
     font-size: 12px;
@@ -144,6 +144,9 @@
   .portfolio-list {
     justify-content: center;
   }
+  .hero-container {
+    gap: 36px;
+  }
   .section-main-portfolio {
     padding-top: 64px;
     padding-bottom: 96px;
@@ -157,16 +160,12 @@
     gap: 72px 24px;
   }
   .main-block-text {
-    font-family: Roboto;
     font-size: 56px;
-    line-height: 1.07; /* 107.143% */
     letter-spacing: 1.12px;
-    padding: 112px 120px 36px;
-    text-align: center;
+    max-width: 496px;
+    text-transform: none;
   }
-  .main-block-button {
-    margin-bottom: 112px;
-  }
+
   .foototer-subscribe-text {
     width: 264px;
   }
@@ -240,11 +239,17 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+  .hero-section {
+    max-width: 1440px;
+    padding: 188px 0 ;
+  
+  }
   .header-address {
     gap: 40px;
     margin-left: 331px;
     flex-wrap: nowrap;
   }
+
   .header-logo {
     margin-right: 76px;
   }
@@ -275,6 +280,9 @@
   }
   .strategy-list {
     gap: 24px;
+  }
+  .hero-container {
+    gap: 48px;
   }
   .doing {
     display: unset;
@@ -320,17 +328,9 @@
     gap: 72px 24px; */
   }
   .main-block-text {
-    padding: 188px 0 48px 0;
-    display: flex;
-    color: #fff;
-    font-size: 56px;
-    margin-left: auto;
-    margin-right: auto;
-
-    text-align: center;
+    /* text-align: center; */
     max-width: 496px;
     line-height: 1.07; /* 107.143% */
-    letter-spacing: 0.02em;
   }
   .footer-section {
     padding-top: 100px;
@@ -366,7 +366,7 @@
     margin-right: 24px;
   }
   .list-subtitle-text {
-    font-weight: unset; 
+    font-weight: unset;
   }
 
   .main-section {
