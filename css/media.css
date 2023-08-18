@@ -17,6 +17,12 @@
   .customers-item {
     width: calc((100% - 18px) / 2);
   }
+  .modal {
+    max-width: 392px;
+  }
+  .member-title-portfolio {
+      font-size: 20px;
+  }
   .customers {
     padding: 96px 0;
   }
@@ -44,8 +50,12 @@
   }
   .main-block-text {
     /* padding: 112px 38px 72px; */
-    /* width: 3; */
+   font-size: 36px;
+   max-width: 320px;
     text-transform: capitalize;
+  }
+  .modal-checkbox-link {
+   margin-left: 0;
   }
   /* .portfolio-list-project:nth-last-child(gap: 0 48px;) {
   } */
@@ -89,6 +99,9 @@
   }
   .list-subtitle-text {
     /* font-weight: 500;  */
+  }
+    .modal {
+    max-width: 408px;
   }
   .team-list {
     flex-direction: row;
