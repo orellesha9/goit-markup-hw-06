@@ -75,12 +75,11 @@ a {
   width: 100vw;
   height: 100vh;
   background-color: #fff;
- padding: 80px 35px 40px 40px;
+  padding: 80px 35px 40px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   overflow: auto;
-  
 }
 .mob-icons-list {
   display: flex;
@@ -99,12 +98,11 @@ a {
   border-radius: 50%;
   align-items: center; */
 
-
   position: absolute;
   width: 24px;
   height: 24px;
   border-radius: 50%;
- display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   background-color: #e7e9fc;
@@ -112,10 +110,10 @@ a {
   padding: 0;
   cursor: pointer;
   right: 32px;
-    top: 32px;
+  top: 32px;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mob-menu-address-item > .list {
   color: #4d5ae5;
@@ -129,7 +127,7 @@ a {
   margin-bottom: 48px;
 }
 .mob-padding {
-  margin-bottom:  40px;
+  margin-bottom: 40px;
 }
 
 .mob-list {
@@ -375,7 +373,7 @@ a {
   justify-content: center;
   margin-right: auto;
   /* padding: 112px 54px 72px; */
-  
+
   /* max-width: 320px; */
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
@@ -387,9 +385,9 @@ a {
   /* padding: 188px 472px 292px 472px; */
 }
 .hero-container {
-display: flex;
-flex-direction: column;
-gap: 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
 }
 .address {
 }
@@ -592,8 +590,8 @@ gap: 72px;
 .footer-div-logo {
   /* margin-right: 120px; */
   width: auto;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -608,11 +606,10 @@ gap: 72px;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
   display: inline-block;
   margin-bottom: 16px;
-
 }
 .logo-blue-white {
   color: #f4f4fd;
@@ -728,10 +725,10 @@ gap: 72px;
 }
 .adress-color {
   font-family: Roboto;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .current:after {
   content: "";
@@ -1091,20 +1088,17 @@ letter-spacing: 0.02em;
   letter-spacing: 0.02em;
   color: var(--color-white);
   margin-bottom: 16px;
-     text-align: center;
+  text-align: center;
 }
 .footer-social {
   width: auto;
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .foototer-subscribe-form {
- display: flex;
-    gap: 16px 24px;
-    flex-direction: column;
- 
-
- 
+  display: flex;
+  gap: 16px 24px;
+  flex-direction: column;
 }
 .foototer-subscribe-text {
   /* max-width: 264px; */
@@ -1144,7 +1138,7 @@ margin-right: auto;
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-   margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
 }
 .foototer-subscribe-icon {
@@ -1165,9 +1159,9 @@ margin-right: auto;
 .foototer-subscribe-lable {
   /* justify-content: center; */
   margin-bottom: 16px;
-    font-weight: 500;
-    color: var(--white);
-    text-align: center;
+  font-weight: 500;
+  color: var(--white);
+  text-align: center;
   /* margin-left: auto;
   margin-right: auto;
   width: auto; */
