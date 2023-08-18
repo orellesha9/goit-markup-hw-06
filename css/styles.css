@@ -67,6 +67,7 @@ a {
   color: #2e2f42;
 }
 /** header */
+
 .mob-menu {
   position: fixed;
   top: 0;
@@ -79,6 +80,7 @@ a {
   flex-direction: column;
   justify-content: space-between;
   overflow: auto;
+  
 }
 .mob-icons-list {
   display: flex;
@@ -124,10 +126,10 @@ a {
   gap: 40px;
 }
 .mob-menu-address {
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 .mob-padding {
-  padding-bottom: 40px;
+  margin-bottom:  40px;
 }
 
 .mob-list {
